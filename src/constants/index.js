@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "App developer",
       icon: creator,
     },
   ];
@@ -112,6 +112,7 @@ import {
       name: "docker",
       icon: docker,
     },
+    
   ];
   
   const experiences = [
