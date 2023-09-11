@@ -19,17 +19,11 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import Icon from "./Icon.png";
 import tailwind from "./tech/tailwind.png";
-
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import blog from "./blog.png";
+import clubss from "./clubss.png";
+import gym from "./gym.png";
+import youtube from "./youtube.png";
 
 export {
   logo,
@@ -54,11 +48,8 @@ export {
   tailwind,
   Icon,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  blog,
+  clubss,
+  gym,
+  youtube,
 };

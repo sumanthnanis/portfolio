@@ -10,19 +10,14 @@ import {
     html,
     css,
     reactjs,
- 
+    youtube,
+    gym,
+    blog,
+    clubss,
     tailwind,
     nodejs,
     mongodb,
-    git,
-   
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    git,   
     threejs,
   } from "../assets";
   
@@ -113,97 +108,17 @@ import {
     }
     
   ];
+ 
   
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Blogs page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Explore my engaging blogs page website, your gateway to a world of insightful content and thought-provoking articles that cater to your interests and passions.",
       tags: [
         {
-          name: "react",
+          name: "Nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -211,56 +126,81 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Css,Html",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: blog,
       source_code_link: "https://github.com/",
+      source_code_links: "https://blogsapp-r88g.onrender.com",
     },
     {
-      name: "Job IT",
+      name: "Youtube Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Discover the next-generation of video-sharing and entertainment with our YouTube clone, where creativity knows no bounds and content reigns supreme.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: youtube,
       source_code_link: "https://github.com/",
+      source_code_links: "https://sumanths-youtube.netlify.app",
     },
     {
-      name: "Trip Guide",
+      name: "Gym Site",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Step into a world of fitness and wellness with our gym website, where health meets technology to empower your journey towards a stronger, healthier you.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: gym,
       source_code_link: "https://github.com/",
+      source_code_links: "https://sumanth-gym.netlify.app",
+    },
+    {
+      name: "Amrita Blockchain site",
+      description:
+        "An online platform designed to facilitate seamless connections between students and clubs, providing a user-friendly experience that encourages participation and engagement.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwindcss,CSS,Html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: clubss,
+      source_code_link: "https://github.com/",
+      source_code_links: "https://amrita-blockchain-club.netlify.app/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, projects };
   

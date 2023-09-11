@@ -29,16 +29,14 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
       .send(
-        service_w64nk4g,
-        template_tlcs4do,
-        
+        "service_w64nk4g", 
+        "template_tlcs4do", 
         {
           from_name: form.name,
           to_name: "Sumanth",
@@ -46,13 +44,13 @@ const Contact = () => {
           to_email: "badampraveena1981@gmail.com",
           message: form.message,
         },
-        'nYen_-2Zmee12_0ao'
+        "nYen_-2Zmee12_0ao" 
       )
       .then(
         () => {
           setLoading(false);
           alert("You reached sumanth. I will get back to you as soon as possible.");
-
+  
           setForm({
             name: "",
             email: "",
@@ -62,11 +60,50 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("You didn't reach me,try again.");
+  
+          alert("You didn't reach me, try again.");
         }
       );
   };
+  
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   emailjs
+  //     .send(
+  //       service_w64nk4g,
+  //       template_tlcs4do,
+        
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Sumanth",
+  //         from_email: form.email,
+  //         to_email: "badampraveena1981@gmail.com",
+  //         message: form.message,
+  //       },
+  //       'nYen_-2Zmee12_0ao'
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("You reached sumanth. I will get back to you as soon as possible.");
+
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
+
+  //         alert("You didn't reach me,try again.");
+  //       }
+  //     );
+  // };
 
   return (
     <div
