@@ -4,17 +4,18 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    flutter,
+    mysql,
+    dart,
     html,
     css,
     reactjs,
-    redux,
+ 
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+   
     meta,
     starbucks,
     tesla,
@@ -72,18 +73,12 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -105,13 +100,17 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Flutter",
+      icon: flutter,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Dart",
+      icon: dart,
     },
+    {
+      name: "MySQL",
+      icon: mysql,
+    }
     
   ];
   

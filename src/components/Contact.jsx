@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//template_tlcs4do
+//template_tlcs4do 
 //service_w64nk4g
 //nYen_-2Zmee12_0ao
 const Contact = () => {
