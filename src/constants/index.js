@@ -19,6 +19,7 @@ import {
     mongodb,
     git,   
     threejs,
+    scholar,
   } from "../assets";
   
   export const navLinks = [
@@ -199,6 +200,28 @@ import {
       image: clubss,
       source_code_link: "https://github.com/",
       source_code_links: "https://amrita-blockchain-club.netlify.app/",
+    },
+    {
+      name: "Scholar Sphere",
+      description:
+      " Developed a dynamic web platform where authors can upload research papers and users to read and access the documents seamlessly. Implemented state management with Redux to ensure efficient handling of user interactions and data flow",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: scholar,
+      source_code_link: "https://github.com/",
+     
     },
   ];
   

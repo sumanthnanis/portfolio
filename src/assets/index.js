@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import blog from "./blog.png";
 import clubss from "./clubss.png";
 import gym from "./gym.png";
+import scholar from "./scholar.jpg";
 import youtube from "./youtube.png";
 
 export {
@@ -39,6 +40,7 @@ export {
   git,
   html,
   javascript,
+  scholar,
   mongodb,
   nodejs,
   reactjs,
